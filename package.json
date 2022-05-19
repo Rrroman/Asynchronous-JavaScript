@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Rrroman/Asynchronous-JavaScript#readme",
   "devDependencies": {
     "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
     "mocha": "^10.0.0"
   }
 }
