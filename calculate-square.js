@@ -1,12 +1,12 @@
-function calculateSquare(num, callback) {
+function calculateSquare(number, callback) {
   setTimeout(function () {
-    if (typeof num !== 'number') {
+    if (typeof number !== 'number') {
       callback(new Error('Argument is not a number'));
       return;
     }
-    const result = num * num;
+    const result = number * number;
     callback(null, result);
-  }, 2000);
+  }, 1000);
 }
 
 module.exports = calculateSquare;
