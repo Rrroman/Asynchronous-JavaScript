@@ -9,4 +9,4 @@ function calculateSquare(num, callback) {
   }, 2000);
 }
 
-export {calculateSquare};
+module.exports = calculateSquare;
