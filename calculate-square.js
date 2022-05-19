@@ -16,7 +16,7 @@ function calculateSquare(number) {
         return reject(new Error('Argument is not a number'));
       }
       resolve(number * number);
-    }, 1000);
+    }, 3000);
   });
 }
 
